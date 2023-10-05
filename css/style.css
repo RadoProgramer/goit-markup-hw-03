@@ -60,6 +60,7 @@
     line-height: 1.5;
     letter-spacing: 0.02em;
     text-decoration: none;
+    padding: 24px 0 24px;
 }
 
 .link{
@@ -89,11 +90,13 @@ color: var(--pressed-state-color);
 }
 .index-section-one{
     background-color: var(--hero-background-color);
+    padding: 188px;
 }
 .index-section-four{
     background-color: var(--light-color);
 }
 .index-heading{
+    max-width: 496px;
     font-size: 56px;
     line-height: 1.07;
     text-align: center;
@@ -236,7 +239,6 @@ color: var(--pressed-state-color);
     display: flex;
     gap: 40px;
     justify-content: flex-end;
-    padding: 24px 0 24px;
 }
 .address:first-child{
     margin-right: 40px;
@@ -244,9 +246,9 @@ color: var(--pressed-state-color);
 .address:last-child{
     margin-right: 0;
 }
-/*nieuzytek*/
-.main-container{
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
+.button-studio{
+    display: block;
+    min-width: 169px;
+    height: 56px;
+    border: none;
 }
