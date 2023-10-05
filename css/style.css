@@ -216,4 +216,8 @@ color: var(--pressed-state-color);
     padding-inline: 15px;
     margin-inline: auto;
 }
+.header{
+    padding: 24px 156px;
+    border-bottom: 1px solid var(--accent-color);
+}
 
