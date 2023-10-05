@@ -219,14 +219,11 @@ color: var(--pressed-state-color);
     width: 1158px;
     padding-inline: 15px;
     margin-inline: auto;
+    display: flex;
 }
 .header{
     padding: 24px 156px;
     border-bottom: 1px solid var(--accent-color);
-    display: flex;
-}
-.header-flex{
-    display: flex;
 }
 .img{
     display: block;
@@ -239,7 +236,10 @@ color: var(--pressed-state-color);
 .address{
     display: flex;
     gap: 40px;
-    justify-content: flex-end;
+}
+.address-nav{
+    display: flex;
+    gap: 40px;
 }
 .address:first-child{
     margin-right: 40px;
