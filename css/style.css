@@ -223,6 +223,7 @@ color: var(--pressed-state-color);
 .header{
     padding: 24px 156px;
     border-bottom: 1px solid var(--accent-color);
+    display: flex;
 }
 .header-flex{
     display: flex;
