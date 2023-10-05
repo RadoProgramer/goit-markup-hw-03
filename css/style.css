@@ -225,11 +225,19 @@ color: var(--pressed-state-color);
 }
 .nav{
     display: flex;
+    align-items: center;
+    gap: 40px;
 }
 .address{
     display: flex;
-    justify-content: last baseline;
     gap: 40px;
+    justify-content: flex-end;
+}
+.address:first-child{
+    margin-right: 40px;
+}
+.address:last-child{
+    margin-right: 0;
 }
 /*nieuzytek*/
 .main-container{
