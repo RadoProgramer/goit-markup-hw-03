@@ -30,6 +30,7 @@
     letter-spacing: 0.03em;
     text-decoration: none;
     text-transform: uppercase;
+    margin-right: 76px;
 }
 .logo-header{
     font-family: "Raleway", sans-serif;
@@ -212,13 +213,16 @@ color: var(--pressed-state-color);
     padding-block: 120px;
 }
 .container{
-    width: 1128px;
+    width: 1158px;
     padding-inline: 15px;
     margin-inline: auto;
 }
 .header{
     padding: 24px 156px;
     border-bottom: 1px solid var(--accent-color);
+}
+.header-flex{
+    display: flex;
 }
 .img{
     display: block;
@@ -232,6 +236,7 @@ color: var(--pressed-state-color);
     display: flex;
     gap: 40px;
     justify-content: flex-end;
+    padding: 24px 0 24px;
 }
 .address:first-child{
     margin-right: 40px;
