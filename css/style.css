@@ -220,4 +220,6 @@ color: var(--pressed-state-color);
     padding: 24px 156px;
     border-bottom: 1px solid var(--accent-color);
 }
-
+.img{
+    display: block;
+}
