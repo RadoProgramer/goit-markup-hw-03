@@ -212,7 +212,7 @@ color: var(--pressed-state-color);
     padding-block: 120px;
 }
 .container{
-    width: 1158px;
+    width: 1128px;
     padding-inline: 15px;
     margin-inline: auto;
 }
@@ -222,4 +222,18 @@ color: var(--pressed-state-color);
 }
 .img{
     display: block;
+}
+.nav{
+    display: flex;
+}
+.address{
+    display: flex;
+    justify-content: last baseline;
+    gap: 40px;
+}
+/*nieuzytek*/
+.main-container{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
 }
