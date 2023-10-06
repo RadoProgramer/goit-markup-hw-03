@@ -90,7 +90,7 @@ color: var(--pressed-state-color);
 }
 .index-section-one{
     background-color: var(--hero-background-color);
-    padding: 188px;
+    padding: 188px 0 188px;
 }
 .index-section-four{
     background-color: var(--light-color);
@@ -167,6 +167,7 @@ color: var(--pressed-state-color);
     font-weight: 500;
     line-height: 24px;
     letter-spacing: 0.02em;
+    flex-basis: calc((100% - 72px) / 4);
 }
 .inex-heading-thre{
     color: var(--dark-color);
@@ -190,6 +191,7 @@ color: var(--pressed-state-color);
     font-weight: 400;
     line-height: 24px;
     letter-spacing: 0.02em;
+    margin-bottom: 8px;
 }
 .list{
     list-style: none;
@@ -251,6 +253,7 @@ color: var(--pressed-state-color);
     min-width: 169px;
     height: 56px;
     border: none;
+    border-radius: 4px;
 }
 .footer{
     padding: 100px 0 100px;
@@ -261,4 +264,17 @@ color: var(--pressed-state-color);
 }
 .flex{
     display: flex;
+}
+.visually-hidden{
+    display: none;
+}
+.list-studio{
+    display: flex;
+    gap: 24px;
+}
+.list-studio:first-child {
+    margin-right: 24px;
+}
+.list-studio:last-child {
+    margin-right: 0;
 }
