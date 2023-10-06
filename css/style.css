@@ -167,6 +167,7 @@ color: var(--pressed-state-color);
     font-weight: 500;
     line-height: 24px;
     letter-spacing: 0.02em;
+    margin-bottom: 8px;
 }
 .inex-heading-thre{
     color: var(--dark-color);
@@ -175,6 +176,7 @@ color: var(--pressed-state-color);
     text-align: center;
     letter-spacing: 0.02em;
     text-transform: capitalize;
+    margin-bottom: 72px;
 }
 .inex-heading-four{
     color: var(--dark-color);
@@ -183,6 +185,7 @@ color: var(--pressed-state-color);
     text-align: center;
     letter-spacing: 0.02em;
     text-transform: capitalize;
+    margin-bottom: 72px;
     }
 .index-category{
     color: var(--text-color);
@@ -190,7 +193,6 @@ color: var(--pressed-state-color);
     font-weight: 400;
     line-height: 24px;
     letter-spacing: 0.02em;
-    margin-bottom: 8px;
 }
 .list{
     list-style: none;
@@ -198,13 +200,18 @@ color: var(--pressed-state-color);
 .list-index-bacground{
     background-color: var(--white-background-color);
 }
-.foto-list{
+.foto{
     background-color: var(--white-background-color);
     color: var(--dark-color);
     font-size: 20px;
     font-weight: 500;
     line-height: 24px;
     letter-spacing: 0.02em;
+    text-align: center;
+    margin-bottom: 8px;
+}
+.foto-list{
+    text-align: center;
 }
 .mouse{
     cursor: pointer;
@@ -288,4 +295,17 @@ color: var(--pressed-state-color);
 }
 .li-index{
     flex-basis: calc((100% - 72px) / 4);
+}
+.li-index-two{
+    flex-basis: calc((100% - 48px) / 3);
+}
+.li-index-thre {
+    flex-basis: calc((100% - 72px) / 4);
+    border-radius: 0px 0px 4px 4px;
+}
+.team-list{
+    padding-top: 32px;
+    padding-bottom: 32px;
+    padding-left: 16px;
+    padding-right: 16px;
 }
