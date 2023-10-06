@@ -167,7 +167,6 @@ color: var(--pressed-state-color);
     font-weight: 500;
     line-height: 24px;
     letter-spacing: 0.02em;
-    flex-basis: calc((100% - 72px) / 4);
 }
 .inex-heading-thre{
     color: var(--dark-color);
@@ -235,8 +234,8 @@ color: var(--pressed-state-color);
     gap: 40px;
 }
 .address{
-    display: flex;
     gap: 40px;
+    display: flex;
 }
 .address-nav{
     display: flex;
@@ -266,7 +265,16 @@ color: var(--pressed-state-color);
     display: flex;
 }
 .visually-hidden{
-    display: none;
+    position: absolute;
+    width: 1px;
+    height: 1px;
+    margin: -1px;
+    border: 0;
+    padding: 0;
+    white-space: nowrap;
+    clip-path: inset(100%);
+    clip: rect(0 0 0 0);
+    overflow: hidden;
 }
 .list-studio{
     display: flex;
@@ -277,4 +285,7 @@ color: var(--pressed-state-color);
 }
 .list-studio:last-child {
     margin-right: 0;
+}
+.li-index{
+    flex-basis: calc((100% - 72px) / 4);
 }
