@@ -101,6 +101,7 @@ color: var(--pressed-state-color);
     line-height: 1.07;
     letter-spacing: 0.02em;
     color: var(--white-background-color);
+    text-align: center;
 }
 .contact-list{
     font-family: "Roboto", sans-serif;
