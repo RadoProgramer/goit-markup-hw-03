@@ -225,15 +225,12 @@ color: var(--pressed-state-color);
 }
 .container{
     width: 1158px;
-    padding-inline: 15px;
-    margin-inline: auto;
+    padding: 0 15px;
+    margin: auto;
 }
 .header{
     padding: 24px 156px;
     border-bottom: 1px solid var(--accent-color);
-}
-.img{
-    display: block;
 }
 .nav{
     display: flex;
@@ -304,8 +301,5 @@ color: var(--pressed-state-color);
     border-radius: 0px 0px 4px 4px;
 }
 .team-list{
-    padding-top: 32px;
-    padding-bottom: 32px;
-    padding-left: 16px;
-    padding-right: 16px;
+    padding: 32px 0px;
 }
