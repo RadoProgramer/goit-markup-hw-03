@@ -247,11 +247,13 @@ color: var(--pressed-state-color);
     margin: 0 auto;
 }
 .header{
-    padding: 24px 156px;
     border-bottom: 1px solid var(--accent-color);
 }
 .header-space{
+    display: inline-flex;
+    align-items: center;
     justify-content: space-between;
+    height: 72px;
 }
 .nav{
     display: flex;
