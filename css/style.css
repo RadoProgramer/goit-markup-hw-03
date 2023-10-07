@@ -381,4 +381,6 @@ color: var(--pressed-state-color);
 }
 .img{
     display: block;
+    max-width: 100%;
+    height: auto;
 }
